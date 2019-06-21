@@ -35,8 +35,7 @@ shas = input
 
 def inp():
     try:
-        das = [
-         '1', '2', '3', '0']
+        das = ['1', '2', '3', '0']
         pilih = shas('%s╔%s[%s22XC%s]\n%s╚%s[%sPilih%s]> %s' % (P1, R1, W1, R1, P1, R1, W1, R1, C1))
         while 1:
             if pilih not in das:
